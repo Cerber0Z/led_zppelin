@@ -1,0 +1,513 @@
+body {
+    color: #EDEDED;
+}
+
+#img {
+    background: linear-gradient(0deg, rgba(4, 0, 1, 1) -5%, rgba(0, 0, 0, 0) 0%, rgba(5, 2, 0, 0.6909138655462185) 80%, rgba(0, 0, 0, 0.8029586834733894) 200%, rgba(0, 0, 0, 0.8953956582633054) 100%), url("img/3000.jpeg");
+    background-size: 1920px 1430px;
+    background-position-y: -220px;
+    background-repeat: no-repeat;
+}
+
+#RedesSociales {
+    display: flex;
+    padding-right: 0.5em;
+    margin-left: 82%;
+    margin-bottom: 11px;
+}
+
+ul.social-icons li {
+    display: inline;
+    padding-right: 1.5em;
+}
+
+ul.menu2 li {
+    display: block;
+}
+
+.option {
+    text-decoration: none;
+    color: #EDEDED;
+    letter-spacing: 0.1em;
+    font-size: xx-large;
+    font-family: system-ui;
+}
+
+#logoZeppelin {
+    width: 550.37px;
+    height: 189.19px;
+    margin-top: -60.17px;
+    margin-left: 660px;
+    filter: drop-shadow(0px 22px 11px rgba(0, 0, 0, 0.54));
+}
+
+#menu {
+    position: fixed;
+    height: 100%;
+    width: 400px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: rgba(31, 31, 31, 0.8);
+    backdrop-filter: blur(15px);
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing: border-box;
+}
+
+.menu2 {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+#menus {
+    margin-top: -9.5%;
+    margin-left: 35px;
+}
+
+#closemenu {
+    margin-left: 335px;
+    margin-top: -65px;
+}
+
+#TextMenu {
+    text-decoration: none;
+    color: #EDEDED;
+    text-align: center;
+    font-size: xx-large;
+    font-family: system-ui;
+}
+
+#logosZ {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    margin-top: 350px;
+}
+
+#copy {
+    text-align: center;
+    font-family: system-ui;
+}
+
+#cop {
+    font-family: system-ui;
+    margin-top: -5px;
+    font-size: larger;
+}
+
+#com {
+    font-family: system-ui;
+    color: #EDEDED;
+    font-size: larger;
+    letter-spacing: 0.1em;
+}
+
+#TextAd {
+    font-family: system-ui;
+    font-size: larger;
+}
+
+#botoncomprar {
+    background-color: black;
+    width: 40%;
+    margin-left: 26%;
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 30px;
+}
+
+#botoncomprar2 {
+    background-color: black;
+    width: 40%;
+    margin-left: 26%;
+    margin-top: 20%;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 30px;
+}
+
+#botoncomprar3 {
+    background-color: black;
+    width: 40%;
+    margin-left: 26%;
+    margin-top: 10%;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 30px;
+}
+
+#icospotify {
+    margin-left: 2%;
+    margin-top: 26px;
+    width: 10%;
+    position: absolute;
+}
+
+#icospotify1 {
+    margin-left: 2%;
+    margin-top: 104px;
+    width: 10%;
+    position: absolute;
+}
+
+#icospotify2 {
+    margin-left: 2%;
+    margin-top: 52px;
+    width: 10%;
+    position: absolute;
+}
+
+
+/*Slider */
+
+.caratula {
+    z-index: 1;
+    background: rgba(76, 76, 76, 0.5);
+    backdrop-filter: blur(6px);
+    margin-left: 10%;
+    padding: 25px;
+    margin-top: 8%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.textcaratula {
+    z-index: 1;
+    background: rgba(76, 76, 76, 0.5);
+    backdrop-filter: blur(6px);
+    padding: 25px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 110%;
+    margin-right: -100%;
+    margin-top: -91%;
+    height: 191%;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.imgC {
+    width: 100%;
+    margin-top: 6px;
+}
+
+ul.slider {
+    position: relative;
+    width: 630px;
+    height: 300px;
+    margin-top: 4%;
+    margin-left: 15.2%;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+    /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1;
+    /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.arrow {
+    text-align: center;
+    margin-top: 17.5%;
+    margin-left: 45.6%;
+    display: flex;
+}
+
+.s {
+    padding-right: 1.5em;
+}
+
+.arrow li {
+    display: inline-block;
+    text-align: center;
+}
+
+.arrow li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+#hrtx {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#mothership:hover {
+    background: url(img/Led_Zeppelin-Mothership-Trasera.jpg) no-repeat;
+}
+
+
+/* Reproductor*/
+
+#controls {
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(46 46 46 / 58%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    margin-top: 3.1%;
+    z-index: 1;
+    margin-left: -17px;
+    bottom: 0;
+    width: 101%;
+    height: 108px;
+}
+
+svg {
+    color: #ffffff
+}
+
+progress {
+    width: 101%;
+    margin: 2px;
+    opacity: 0.5;
+    margin-left: -2px;
+}
+
+.volumen {
+    width: 45%;
+    position: relative;
+    top: 30px;
+    right: -71%;
+    float: left;
+    color: #ffffff;
+}
+
+#iconval {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -12px;
+}
+
+#currentPlay {
+    font-family: system-ui;
+    font-size: larger;
+    margin-left: 140px;
+}
+
+h3 {
+    color: #e84393;
+    margin: 0px;
+}
+
+#iconsrepor {
+    text-align: center;
+}
+
+#reproductor {
+    position: absolute;
+    margin-left: 47.3%;
+    margin-top: 12px;
+}
+
+#ImgAlbum {
+    width: 4%;
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 48px;
+}
+
+#iconssetpba {
+    margin-left: -3px;
+    margin-top: 8px;
+    position: absolute;
+}
+
+#iconssetpfo {
+    margin-left: 90px;
+    margin-top: -39px;
+}
+
+#ledz {
+    font-family: system-ui;
+    margin-top: -2px;
+    margin-left: 140px;
+    color: #b8b8b8;
+}
+
+.selector {
+    /* definir una altura pequeña para forzar el scroll */
+    height: 100px;
+    overflow-y: scroll;
+    width: 300px;
+    /* cambiar el estilo por defecto de la barra de scroll */
+    scrollbar-color: yellow #800080;
+    scrollbar-width: 10px;
+}
+
+
+/*historia*/
+
+#imgh {
+    background: linear-gradient( 0deg, rgba(4, 0, 1, 1) -5%, rgba(0, 0, 0, 0) 0%, rgba(5, 2, 0, 0.6909138655462185) 80%, rgba(0, 0, 0, 0.8029586834733894) 200%, rgba(0, 0, 0, 0.8953956582633054) 100%), url(img/v2-c850f6c7f73cebc69a8ce3687062d9b5_1440w.jpg);
+    background-size: 1920px 930px;
+    background-position-y: -220px;
+    background-repeat: no-repeat;
+}
+
+#tex {
+    font-family: system-ui;
+    margin-top: -4%;
+    color: #020202;
+    padding: 5%;
+}
+
+#titleS {
+    margin-top: 36%;
+    color: #636363;
+    text-align: center;
+    font-family: system-ui;
+    letter-spacing: 0.1em;
+}
+
+#hrs {
+    width: 25%;
+    height: 1px;
+    background-color: #a4a4a4;
+}
+
+#segtex {
+    color: #636363;
+    text-align: center;
+    font-family: system-ui;
+    letter-spacing: 0.1em;
+    margin-top: -70px;
+}
+
+
+/*Albumes*/
+
+#imga {
+    background: linear-gradient( 0deg, rgba(4, 0, 1, 1) -5%, rgba(0, 0, 0, 0) 0%, rgba(5, 2, 0, 0.6909138655462185) 80%, rgba(0, 0, 0, 0.8029586834733894) 200%, rgba(0, 0, 0, 0.8953956582633054) 100%), url(img/rs-194285-4560942512.jpg);
+    background-size: 1880px 975px;
+    background-position-y: -260px;
+    background-repeat: no-repeat;
+}
+
+.caratulaAlbumes {
+    background: rgb(0 0 0 / 45%);
+    backdrop-filter: blur(6px);
+    margin-left: 5%;
+    padding: 16px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 95%;
+    margin-top: 5%;
+}
+
+#albumes {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 7px;
+}
+
+.namealbumes {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: x-large;
+    font-family: system-ui;
+    margin-top: 0%;
+}
+
+.fechala {
+    text-decoration: none;
+    color: #d6d6d6;
+    font-size: large;
+    font-family: system-ui;
+    margin-top: -7%;
+    margin-bottom: 20px;
+}
+
+#botoncompraral {
+    background-color: black;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 30px;
+}
+
+#botonspoty {
+    margin-left: 8%;
+    margin-top: 15px;
+    width: 10%;
+    position: absolute;
+}
+
+
+/*Eventos*/
+
+#imge {
+    background: linear-gradient( 0deg, rgba(4, 0, 1, 1) -5%, rgba(0, 0, 0, 0) 0%, rgba(5, 2, 0, 0.6909138655462185) 80%, rgba(0, 0, 0, 0.8029586834733894) 200%, rgba(0, 0, 0, 0.8953956582633054) 100%), url(img/07606be526e8bc31f070430fc50c0a5b-1533894575.jpg);
+    background-size: 1880px 975px;
+    background-position-y: -260px;
+    background-repeat: no-repeat;
+}
+
+#event {
+    margin-top: 60px;
+    margin-left: 69px;
+}
+
+#texeve {
+    font-family: system-ui;
+    margin-top: -28%;
+    color: #020202;
+    padding: 15%;
+    margin-left: 16%;
+}
+
+#fechaevent {
+    text-decoration: none;
+    color: #797878;
+    font-size: large;
+    font-family: system-ui;
+    margin-top: -15%;
+    margin-bottom: 20px;
+    margin-left: 31%;
+}
+
+#titleevent {
+    margin-left: 29.5%;
+    color: #737373;
+    font-size: larger;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: -1px;
+}
